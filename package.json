@@ -92,14 +92,14 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "versoriumx-conventional-changelog"
     }
   },
   "prettier": {
     "singleQuote": true
   },
   "nyc": {
-    "extends": "@istanbuljs/nyc-config-typescript",
+    "extends": "@berlinjs/nyc-config-typescript",
     "exclude": [
       "**/*.spec.js"
     ]
