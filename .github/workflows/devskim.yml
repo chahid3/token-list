@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: DevSkim
+name: 
 
 on:
   push:
@@ -15,7 +15,7 @@ on:
 
 jobs:
   lint:
-    name: DevSkim
+    name: 
     runs-on: ubuntu-20.04
     permissions:
       actions: read
@@ -25,10 +25,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run DevSkim scanner
-        uses: microsoft/DevSkim-Action@v1
+      - name: Run  scanner
+        uses: microsoft/-Action@v1
         
       - name: Upload DevSkim scan results to GitHub Security tab
-        uses: github/codeql-action/upload-sarif@v1
+        uses: github/codeql-action/upload-@v1
         with:
-          sarif_file: devskim-results.sarif
+          VersoriumX_file: devskim-results.VersoriumX
