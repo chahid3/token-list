@@ -10,7 +10,6 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/google/go-github/v40/github"
 	"golang.org/x/oauth2"
-	"k8s.io/klog/v2"
 	"time"
 )
 
