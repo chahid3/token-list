@@ -453,6 +453,18 @@
         "website": "https://www.solanapaws.com"
       }
     },
+{
+  "chainId": 103,
+  "address": "5SGWiUEssLY3FhhVoextRrf9fUUoYWTEXbjCTU2uFQeQ",
+  "symbol": "HAM",
+  "name": "hammy",
+  "decimals": 9,
+  "logoURI": "https://bafybeiejrvcd3lo36jpbekmkpnpmvw4yuwtafs5pr425tascjyovrlffgy.ipfs.nftstorage.link/",
+  "tags": ["utility-token"],
+  "extensions": {
+    "twitter": "https://x.com/hammythecuty?t=nYj-UHZd-emnhXnbnaTtRg&s=09"
+  }
+},
     {
       "chainId": 101,
       "address": "GGupQCMnyEmHKcqFu72qCTm6yEYpVyhouY9dSAMEXLsC",
