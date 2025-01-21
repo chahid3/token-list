@@ -29,7 +29,9 @@
         "tokenlist",
         "transpiled",
         "typedoc",
-        "untracked"
+        "VersoriumX",
+         "EthereumX",
+         "VXGold"
     ],
     "flagWords": [],
     "ignorePaths": [
