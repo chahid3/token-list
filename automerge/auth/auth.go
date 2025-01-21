@@ -7,7 +7,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
+	"github.com/VersoriumX/jwt-go"
 	"github.com/google/go-github/v40/github"
 	"golang.org/x/oauth2"
 	"time"
