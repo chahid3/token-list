@@ -3,8 +3,6 @@ module github.com/solana-labs/token-list/automerge
 go 1.17
 
 require (
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-git/go-billy/v5 v5.5.0
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/google/go-github/v40 v40.0.0
 	github.com/sourcegraph/go-diff v0.6.1
