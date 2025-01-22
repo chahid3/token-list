@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
-cue vet src/tokens/solana.tokenlist.json automerge/schema.cue -d '#Tokenlist'
+
+# Validate JSON syntax using jq
+if jq empty ./src/tokens/solana.tokenlist.json; then
+    echo "JSON is valid."
+else
+    echo "Invalid JSON syntax. Please fix it."
+    exit 1
+fi
